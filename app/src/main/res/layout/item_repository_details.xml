@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="itemViewModelOne"
+            type="com.githubrepo.domain.entity.RepositoriesEntity.RepositoryDetails" />
+
+        <variable
+            name="itemViewModel"
+            type="String" />
+
+    </data>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/holo_red_light">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/circleImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:visibility="gone"
+            android:src="@drawable/ic_launcher_background" />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/authorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@{itemViewModel}" />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/repoName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="My Nmae"
+            android:textColor="@android:color/holo_blue_dark"
+            tools:text="Git Hub repistory" />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/languages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:visibility="visible"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="My Nmae"
+            tools:text="Java, Python, C++" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "588579932398",
+    "project_id": "seventh-history-322311",
+    "storage_bucket": "seventh-history-322311.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588579932398:android:21b5e449e23f43a6a28bff",
+        "android_client_info": {
+          "package_name": "com.iiab.mobilebanking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588579932398-spl12k6evl9l4bpn0jup3dnrelfctjco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiB525gLfupP5JSwDdUK4cGwBCsI_3-ws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588579932398-spl12k6evl9l4bpn0jup3dnrelfctjco.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "588579932398-d3q7rnn8nvch5hdvu68qes2l1tm12s9a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.naggaro.IIAB"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

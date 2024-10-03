@@ -1,0 +1,50 @@
+
+dependencies {
+    implementation libs.kotlin.stdlib.v1922
+    implementation "androidx.core:core-ktx:$coreKtxVersion"
+    implementation "androidx.appcompat:appcompat:$appCompatVersion"
+    implementation "com.google.android.material:material:$materialVersion"
+
+    //viewmodel + livedata
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycleVersion"
+
+    implementation libs.androidx.lifecycle.extensions
+    //Testing
+    implementation "com.google.android.material:material:$materialVersion"
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.espresso.core)
+
+    // Navigation Jetpack
+    implementation "androidx.navigation:navigation-fragment-ktx:$navVersion"
+    implementation "androidx.navigation:navigation-ui-ktx:$navVersion"
+
+    //constaintlayout
+    implementation "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion"
+
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycleVersion"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycleVersion"
+
+
+    //timber for logs
+    implementation "androidx.multidex:multidex:$multidexVersion"
+
+    // Timber for Logging
+    implementation "com.jakewharton.timber:timber:$timberVersion"
+
+//Retrofit
+    implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
+    implementation "com.squareup.okhttp3:logging-interceptor:$okhttpLoggingVersion"
+    implementation "com.squareup.okio:okio:$okioVersion"
+    implementation "com.squareup.okhttp3:okhttp-urlconnection:$urlConnectionVersion"
+
+    implementation "me.tatarka.bindingcollectionadapter2:bindingcollectionadapter:$binding_collection_adapter_version"
+    implementation "me.tatarka.bindingcollectionadapter2:bindingcollectionadapter-recyclerview:$binding_collection_adapter_version"
+
+
+}
+
